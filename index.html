@@ -1,162 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Privacy Policy - Health Guide MM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Health Guide MM</title>
+
+  <!-- Modern system font stack -->
   <style>
+    :root {
+      --primary: #4f46e5;
+      --secondary: #0f172a;
+      --muted: #64748b;
+      --bg-start: #eef2ff;
+      --bg-end: #f8fafc;
+      --card-bg: rgba(255, 255, 255, 0.85);
+      --border: rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      padding: 24px;
+      margin: 0;
+      min-height: 100vh;
+      font-family: ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial;
+      background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
+      color: var(--secondary);
+      line-height: 1.75;
+    }
+
+    .wrapper {
       max-width: 900px;
       margin: auto;
-      color: #333;
+      padding: 48px 20px;
     }
-    h1, h2 {
-      color: #2c3e50;
+
+    .card {
+      background: var(--card-bg);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      padding: 48px;
+      box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.6);
     }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      width: 88px;
+      height: auto;
+      margin-bottom: 16px;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(79, 70, 229, 0.25);
+    }
+
     h1 {
-      border-bottom: 2px solid #eee;
-      padding-bottom: 10px;
+      margin: 0;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
     }
-    ul {
-      margin-left: 20px;
-    }
-    footer {
-      margin-top: 40px;
-      padding-top: 20px;
-      border-top: 1px solid #eee;
+
+    .updated {
+      margin-top: 8px;
       font-size: 14px;
-      color: #666;
+      color: var(--muted);
+    }
+
+    h2 {
+      margin-top: 42px;
+      margin-bottom: 14px;
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      margin: 12px 0;
+      color: #1e293b;
+    }
+
+    ul {
+      padding-left: 22px;
+      margin: 12px 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .callout {
+      margin: 28px 0;
+      padding: 18px 20px;
+      border-radius: 14px;
+      background: linear-gradient(135deg,
+          rgba(79, 70, 229, 0.08),
+          rgba(99, 102, 241, 0.08));
+      border: 1px solid rgba(79, 70, 229, 0.15);
+      color: #1e293b;
+    }
+
+    a {
+      color: var(--primary);
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 56px;
+      text-align: center;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 32px 24px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
     }
   </style>
 </head>
+
 <body>
 
-<h1>Privacy Policy</h1>
+  <main class="wrapper">
+    <section class="card">
 
-<p><strong>Last updated:</strong> January 2026</p>
+      <header class="header">
+        <img src="logo.png" alt="Health Guide MM Logo" class="logo" />
+        <h1>Privacy Policy</h1>
+        <div class="updated">Last updated: January 2026</div>
+      </header>
 
-<p>
-Health Guide MM ("we", "our", or "us") respects your privacy and is committed to protecting it.
-This Privacy Policy explains how our mobile application <strong>Health Guide MM</strong> handles
-information when you use our app.
-</p>
+      <p>
+        Health Guide MM ("we", "our", or "us") is committed to protecting your
+        privacy. This Privacy Policy explains how the <strong>Health Guide MM</strong>
+        mobile application handles information when you use the app.
+      </p>
 
----
+      <h2>1. Information We Collect</h2>
 
-<h2>1. Information We Collect</h2>
+      <p>
+        Health Guide MM does <strong>not</strong> require user registration and does
+        <strong>not</strong> collect personally identifiable information such as
+        names, phone numbers, email addresses, or physical locations.
+      </p>
 
-<p>
-Health Guide MM does <strong>not</strong> require users to create an account or log in.
-We do <strong>not</strong> collect personally identifiable information such as name, phone number,
-email address, or physical address.
-</p>
+      <ul>
+        <li>Device type and operating system</li>
+        <li>Network connectivity status</li>
+        <li>Anonymous app usage data for performance improvement</li>
+      </ul>
 
-<p>
-However, the app may collect limited non-personal information automatically, including:
-</p>
+      <h2>2. Permissions Used</h2>
 
-<ul>
-  <li>Device type and operating system</li>
-  <li>Network status (Wi-Fi or mobile data)</li>
-  <li>App usage information (for performance and stability)</li>
-</ul>
+      <ul>
+        <li><strong>Internet</strong> – To load online content and updates</li>
+        <li><strong>Access Network State</strong> – To detect connectivity changes</li>
+        <li><strong>Post Notifications</strong> – To send health tips and updates</li>
+      </ul>
 
----
+      <div class="callout">
+        These permissions are used solely to provide app functionality and enhance
+        user experience. We do not sell or misuse user data.
+      </div>
 
-<h2>2. Permissions Used</h2>
+      <h2>3. Notifications</h2>
 
-<p>The application uses the following permissions:</p>
+      <p>
+        Health Guide MM may send local or system notifications to provide reminders,
+        updates, or health-related information. Notifications can be disabled at any
+        time from your device settings.
+      </p>
 
-<ul>
-  <li>
-    <strong>Internet</strong> – Required to load online content and updates.
-  </li>
-  <li>
-    <strong>Access Network State</strong> – Used to detect internet connectivity and improve user experience.
-  </li>
-  <li>
-    <strong>Post Notifications</strong> – Used to send important notifications, reminders, or health-related updates.
-  </li>
-</ul>
+      <h2>4. Third-Party Services</h2>
 
-<p>
-These permissions are used strictly for app functionality and user experience.
-</p>
+      <p>
+        The app may integrate third-party services such as analytics or advertising
+        providers. These services may collect device-level data and operate under
+        their own privacy policies.
+      </p>
 
----
+      <h2>5. Data Security</h2>
 
-<h2>3. Notifications</h2>
+      <p>
+        We apply reasonable technical measures to protect app data. However, no
+        digital system can guarantee absolute security.
+      </p>
 
-<p>
-Health Guide MM may send local or system notifications to inform users about updates,
-tips, or important information. Notifications can be disabled at any time from the
-device settings.
-</p>
+      <h2>6. Children’s Privacy</h2>
 
----
+      <p>
+        Health Guide MM does not knowingly collect personal information from children
+        under 13 years of age. If such data is discovered, it will be promptly
+        removed.
+      </p>
 
-<h2>4. Third-Party Services</h2>
+      <h2>7. Policy Updates</h2>
 
-<p>
-The app may use third-party services (such as analytics or advertising services)
-that may collect information used to identify your device.
-</p>
+      <p>
+        This Privacy Policy may be updated periodically. Any changes will be
+        reflected on this page.
+      </p>
 
-<p>
-These third-party services operate under their own privacy policies.
-</p>
+      <h2>8. Contact Us</h2>
 
----
+      <p>
+        For questions or concerns regarding this Privacy Policy, please contact us:
+      </p>
 
-<h2>5. Data Security</h2>
+      <p>
+        📧 <a href="mailto:ayechann.it@gmail.com">ayechann.it@gmail.com</a>
+      </p>
 
-<p>
-We take reasonable measures to protect information processed by the app.
-However, no method of transmission over the internet or electronic storage
-is 100% secure.
-</p>
+      <footer>
+        © 2026 Health Guide MM. All rights reserved.
+      </footer>
 
----
-
-<h2>6. Children’s Privacy</h2>
-
-<p>
-Health Guide MM does not knowingly collect personal information from children under
-the age of 13. If you believe that a child has provided personal information,
-please contact us so we can take appropriate action.
-</p>
-
----
-
-<h2>7. Changes to This Privacy Policy</h2>
-
-<p>
-We may update our Privacy Policy from time to time.
-Any changes will be posted on this page.
-</p>
-
----
-
-<h2>8. Contact Us</h2>
-
-<p>
-If you have any questions or concerns about this Privacy Policy, please contact us:
-</p>
-
-<p>
-📧 <strong>Email:</strong> <a href="mailto:ayechann.it@gmail.com">ayechann.it@gmail.com</a>
-</p>
-
----
-
-<footer>
-  <p>
-    © 2026 Health Guide MM. All rights reserved.
-  </p>
-</footer>
+    </section>
+  </main>
 
 </body>
+
 </html>
